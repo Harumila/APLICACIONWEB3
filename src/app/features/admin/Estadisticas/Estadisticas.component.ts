@@ -21,8 +21,8 @@ type DashboardVm = {
   selector: 'app-estadisticas',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
-  templateUrl: './estadisticas.component.html',
-  styleUrls: ['./estadisticas.component.css']
+  templateUrl: './Estadisticas.component.html',
+  styleUrls: ['./Estadisticas.component.css']
 })
 export class EstadisticasComponent implements AfterViewInit, OnDestroy {
   // ViewChild para los canvas
